@@ -36,13 +36,13 @@ import io.github.cdimascio.dotenv.Dotenv;
 public class App {
     
     // 优先从.env文件获取，没有则使用系统环境变量
-    private static String UUID = "cc449ebb-7dd2-44b2-b021-e46600e005f4";
+    private static String UUID;
     private static String NEZHA_SERVER;
-    private static String NEZHA_PORT = "443";
+    private static String NEZHA_PORT;
     private static String NEZHA_KEY;
-    private static String DOMAIN = "ataws.ata666az.deno.net";
-    private static String SUB_PATH = "sub";
-    private static String NAME = "ata";
+    private static String DOMAIN;
+    private static String SUB_PATH;
+    private static String NAME;
     private static String WSPATH;
     private static int PORT;
     private static boolean AUTO_ACCESS;
